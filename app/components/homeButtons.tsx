@@ -23,7 +23,7 @@ const HomeButtons = () => {
                 </div>
             </Link>
 
-            <Link href="/climbingshoes" className="w-full sm:w-1/3 lg:w-1/3">
+            <Link href="/quiz" className="w-full sm:w-1/3 lg:w-1/3">
                 <div className="bg-gray-300 p-8 min-h-[400px] flex items-center justify-center group">
                     {/* Background Image */}
                     <div className="relative w-full min-h-[400px]">
