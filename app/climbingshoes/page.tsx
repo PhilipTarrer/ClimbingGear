@@ -50,7 +50,7 @@ export default function Shoes() {
             <div className="flex flex-wrap justify-center gap-20">
                 <div className="w-full sm:w-3/4 lg:w-3/4 pt-10">
                     <div className="bg-white px-8  flex flex-col items-center">
-                        <p className="text-center">Hundreds of years of technology has gone into developing the best possible rubbers for climbing shoes. The rubber is what provides the shoe with the grip climbers need
+                        <p className="text-center">Years of technology has gone into developing the best possible rubbers for climbing shoes. The rubber is what provides the shoe with the grip climbers need
                             to stand on tiny holds without slipping. Every company has designed their own rubber compounds for climbing shoes all with different pros and cons. In general, brands try to balance
                             the stickiness and durability of the rubber. Soft rubbers tending to be less durable but more sticky and hard rubbers tending to be more durable but less sticky. Below is a list of some of the most
                             popular rubbers from different brands.</p>
@@ -136,7 +136,7 @@ export default function Shoes() {
                 </div>
 
                 <div className="w-full sm:w-1/4 lg:w-1/2">
-                    <div className="bg-white px-20 min-h-[200px] flex flex-col items-center justify-center pt-10">
+                    <div className="bg-white px-20 min-h-[200px] flex flex-col items-center justify-center pt-10 pb-10">
                         <h2 className="text-3xl font-bold text-center">Leather Upper</h2>
                         <img src="/uppers/leather.jpg" alt="Leather" className="w-full h-auto object-cover" />
                         <p className="text-center">Leather uppers on climbing shoes offer excellent stretch and mold to the foot over time, providing a customized, 
