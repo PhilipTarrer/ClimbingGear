@@ -15,7 +15,7 @@ const callChatGPT = async (prompt: string): Promise<string> => {
     body: JSON.stringify({
       model: 'gpt-3.5-turbo',  // Use 'gpt-3.5-turbo' if you're using that model
       messages: [
-        { role: 'system', content: 'You are only answering questions about climbing shoes. Limit the answer to just the name of the shoe. For example La Sportiva Solution Female.'},
+        { role: 'system', content: 'You are only answering questions about climbing shoes. Limit the answer to just the name of the shoe. For example La Sportiva Solution Female. Do not use any punctuation.' },
         { role: 'user', content: prompt },
       ],
       stream: false, // Keep this if you want to disable streaming responses
