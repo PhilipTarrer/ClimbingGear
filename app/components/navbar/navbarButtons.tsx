@@ -21,11 +21,6 @@ const NavbarButtons = () => {
                     Browse Shoes
                 </button>
             </Link>
-            <Link href="/chat">
-                <button className="bg-white-500 hover:text-blue-600 text-black text-opacity-70 font-bold py-2 px-4 rounded">
-                    Chat
-                </button>
-            </Link>
         </div>
     );
 };
