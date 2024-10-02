@@ -21,7 +21,6 @@ export default function Shoes() {
                             acts as a hook, forcing more pressure into the very tip of the toe box allowing climbers to stand on smaller holds while maintaining the
                             shape of the shoe. These types of shoes are generally considered to be for more advanced climbers and are very popular in the bouldering community.</p>
                     </div>
-
                 </div>
                 <div className="w-full sm:w-1/4 lg:w-1/4">
                     <div className="bg-white px-8 min-h-[200px] flex flex-col items-center justify-center">
