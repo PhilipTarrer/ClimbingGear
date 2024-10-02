@@ -2,3 +2,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.custom-text-outline {
+    text-shadow: 
+        -1px -1px 0 #808080, /* top-left outline (grey) */
+        1px -1px 0 #808080,  /* top-right outline (grey) */
+        -1px 1px 0 #808080,  /* bottom-left outline (grey) */
+        1px 1px 0 #808080;   /* bottom-right outline (grey) */
+}
