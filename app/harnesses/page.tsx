@@ -10,7 +10,7 @@ export default function Harnesses() {
             </Head>
             <main className='bg-white'>
                 {/* Top of screen image */}
-                <div className="bg-cover bg-center w-full h-[400px] flex items-center justify-center" style={{ backgroundImage: "url('/backgrounds/repell.jpeg')" }} >
+                <div className="bg-cover bg-center w-full h-[400px] flex items-center justify-center" style={{ backgroundImage: "url('/backgrounds/repell.avif')" }} >
                     <div className="text-white text-5xl font-bold text-center">All about harnesses</div>
                 </div>
 
@@ -81,7 +81,7 @@ export default function Harnesses() {
                     <div className="w-full sm:w-1/2 lg:w-1/3">
                         <div className="bg-white p-6 border rounded-lg shadow-md">
                             <h3 className="text-black text-2xl font-semibold text-center mb-4">1. Waist Belt</h3>
-                            <img src='/harnesses/waist.jpg' alt="waist fit" className="w-full h-auto object-cover pb-5" />
+                            <img src='/harnesses/waist.avif' alt="waist fit" className="w-full h-auto object-cover pb-5" />
                             <p className="text-center">The waist belt should sit comfortably around your waist, above your hips. It should be snug but not too tight. You should be able to fit two fingers between the belt and your body, but it shouldn't slide down when you hang in it.</p>
                         </div>
                     </div>
@@ -89,7 +89,7 @@ export default function Harnesses() {
                     <div className="w-full sm:w-1/2 lg:w-1/3">
                         <div className="bg-white p-6 border rounded-lg shadow-md">
                             <h3 className="text-black text-2xl font-semibold text-center mb-4">2. Leg Loops</h3>
-                            <img src='/harnesses/leg.jpg' alt="leg loops fit" className="w-full h-auto object-cover pb-5" />
+                            <img src='/harnesses/leg.avif' alt="leg loops fit" className="w-full h-auto object-cover pb-5" />
                             <p className="text-center">The leg loops should fit comfortably around your thighs. Like the waist belt, they should be snug but not too tight. Some harnesses come with adjustable leg loops for a more customized fit.</p>
                         </div>
                     </div>
@@ -97,7 +97,7 @@ export default function Harnesses() {
                     <div className="w-full sm:w-1/2 lg:w-1/3">
                         <div className="bg-white p-6 border rounded-lg shadow-md">
                             <h3 className="text-black text-2xl font-semibold text-center mb-4">3. Tie-in Points</h3>
-                            <img src='/harnesses/fit.jpg' alt="leg loops fit" className="w-full h-auto object-cover pb-5" />
+                            <img src='/harnesses/fit.avif' alt="leg loops fit" className="w-full h-auto object-cover pb-5" />
                             <p className="text-center">Make sure the tie-in points (where the rope attaches) are properly aligned. These points should be centered, allowing for proper load distribution when you're climbing.</p>
                         </div>
                     </div>
@@ -105,7 +105,7 @@ export default function Harnesses() {
                     <div className="w-full sm:w-1/2 lg:w-1/3">
                         <div className="bg-white p-6 border rounded-lg shadow-md">
                             <h3 className="text-black text-2xl font-semibold text-center mb-4">4. Double-Back Buckles</h3>
-                            <img src='/harnesses/tail.jpg' alt="tail" className="w-full h-auto object-cover pb-5" />
+                            <img src='/harnesses/tail.avif' alt="tail" className="w-full h-auto object-cover pb-5" />
                             <p className="text-center">Ensure all buckles (especially on the waist belt) are double-backed if your harness requires it and any extra tail length tucked away.</p>
                         </div>
                     </div>

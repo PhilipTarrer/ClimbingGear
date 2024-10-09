@@ -9,14 +9,14 @@ export interface Shoe {
   export const shoeData = [
     {
       name: 'Five Ten Team',
-      image: '/shoeSelection/5.10Team.jpg',
+      image: '/shoeSelection/5.10Team.avif',
       rubber: 'Stealth HF',
       aggression: 'High',
       bestUse: 'Bouldering'
     },
     {
       name: 'Butora Acro Female',
-      image: '/shoeSelection/acroF.jpg',
+      image: '/shoeSelection/acroF.avif',
       rubber: 'Neo Rubber',
       aggression: 'High',
       bestUse: 'Sport, Bouldering'
@@ -30,7 +30,7 @@ export interface Shoe {
     },
     {
       name: 'Evolv Addict',
-      image: '/shoeSelection/addict.jpg',
+      image: '/shoeSelection/addict.avif',
       rubber: 'TRAX',
       aggression: 'Low',
       bestUse: 'Trad, Crack Climbing'
@@ -44,35 +44,35 @@ export interface Shoe {
     },
     {
       name: 'Five Ten Anasazi Female',
-      image: '/shoeSelection/anasaziF.jpg',
+      image: '/shoeSelection/anasaziF.avif',
       rubber: 'Stealth C4',
       aggression: 'Medium',
       bestUse: 'Sport, Trad'
     },
     {
       name: 'Five Ten Anasazi Male',
-      image: '/shoeSelection/anasaziM.jpg',
+      image: '/shoeSelection/anasaziM.avif',
       rubber: 'Stealth C4',
       aggression: 'Medium',
       bestUse: 'Sport, Trad'
     },
     {
       name: 'Evolv Astroman',
-      image: '/shoeSelection/astroman.jpg',
+      image: '/shoeSelection/astroman.avif',
       rubber: 'TRAX',
       aggression: 'Low',
       bestUse: 'Trad'
     },
     {
       name: 'Scarpa Chimera',
-      image: '/shoeSelection/chimera.jpg',
+      image: '/shoeSelection/chimera.avif',
       rubber: 'Vibram XS Grip2',
       aggression: 'High',
       bestUse: 'Bouldering, Sport'
     },
     {
       name: 'La Sportiva Cobra',
-      image: '/shoeSelection/cobra.jpg',
+      image: '/shoeSelection/cobra.avif',
       rubber: 'Vibram XS Grip2',
       aggression: 'Medium',
       bestUse: 'Bouldering, Sport'
@@ -86,28 +86,28 @@ export interface Shoe {
     },
     {
       name: 'Evolv Defy Male',
-      image: '/shoeSelection/defyM.jpg',
+      image: '/shoeSelection/defyM.avif',
       rubber: 'TRAX',
       aggression: 'Low',
       bestUse: 'Sport, Gym'
     },
     {
       name: 'Scarpa Drago Female',
-      image: '/shoeSelection/dragoF.jpg',
+      image: '/shoeSelection/dragoF.avif',
       rubber: 'Vibram XS Grip2',
       aggression: 'High',
       bestUse: 'Bouldering, Sport'
     },
     {
       name: 'Scarpa Drago Male',
-      image: '/shoeSelection/dragoM.jpg',
+      image: '/shoeSelection/dragoM.avif',
       rubber: 'Vibram XS Grip2',
       aggression: 'High',
       bestUse: 'Bouldering, Sport'
     },
     {
       name: 'Five Ten Dragon',
-      image: '/shoeSelection/dragon.jpg',
+      image: '/shoeSelection/dragon.avif',
       rubber: 'Stealth HF',
       aggression: 'High',
       bestUse: 'Bouldering'
@@ -128,14 +128,14 @@ export interface Shoe {
     },
     {
       name: 'Scarpa Furia',
-      image: '/shoeSelection/furia.jpg',
+      image: '/shoeSelection/furia.avif',
       rubber: 'Vibram XS Grip2',
       aggression: 'High',
       bestUse: 'Bouldering, Sport'
     },
     {
       name: 'Scarpa Furia S',
-      image: '/shoeSelection/furiaS.jpg',
+      image: '/shoeSelection/furiaS.avif',
       rubber: 'Vibram XS Grip2',
       aggression: 'High',
       bestUse: 'Bouldering, Sport'
@@ -156,7 +156,7 @@ export interface Shoe {
     },
     {
       name: 'Five Ten Grandstone',
-      image: '/shoeSelection/grandstone.jpg',
+      image: '/shoeSelection/grandstone.avif',
       rubber: 'Stealth C4',
       aggression: 'Low',
       bestUse: 'Trad'
@@ -177,14 +177,14 @@ export interface Shoe {
     },
     {
       name: 'Five Ten Hiangle Female',
-      image: '/shoeSelection/hiangleF.jpg',
+      image: '/shoeSelection/hiangleF.avif',
       rubber: 'Stealth C4',
       aggression: 'High',
       bestUse: 'Bouldering, Sport'
     },
     {
       name: 'Five Ten Hiangle Male',
-      image: '/shoeSelection/hiangleM.jpeg',
+      image: '/shoeSelection/hiangleM.avif',
       rubber: 'Stealth C4',
       aggression: 'High',
       bestUse: 'Bouldering, Sport'
@@ -198,21 +198,21 @@ export interface Shoe {
     },
     {
       name: 'Scarpa Instinct VS',
-      image: '/shoeSelection/instinctM.jpg',
+      image: '/shoeSelection/instinctM.avif',
       rubber: 'Vibram XS Edge',
       aggression: 'High',
       bestUse: 'Sport, Bouldering'
     },
     {
       name: 'Scarpa Instinct VSR',
-      image: '/shoeSelection/instinctVSR.jpg',
+      image: '/shoeSelection/instinctVSR.avif',
       rubber: 'Vibram XS Grip2',
       aggression: 'High',
       bestUse: 'Bouldering'
     },
     {
       name: 'La Sportiva Kataki',
-      image: '/shoeSelection/kataki.jpg',
+      image: '/shoeSelection/kataki.avif',
       rubber: 'Vibram XS Edge',
       aggression: 'High',
       bestUse: 'Sport, Trad'
@@ -233,7 +233,7 @@ export interface Shoe {
     },
     {
       name: 'Butora Kira',
-      image: '/shoeSelection/kira.jpg',
+      image: '/shoeSelection/kira.avif',
       rubber: 'Neo Rubber',
       aggression: 'Medium',
       bestUse: 'Sport, Gym'
@@ -247,42 +247,42 @@ export interface Shoe {
     },
     {
       name: 'Scarpa Maestro',
-      image: '/shoeSelection/maestro.jpeg',
+      image: '/shoeSelection/maestro.avif',
       rubber: 'Vibram XS Edge',
       aggression: 'Low',
       bestUse: 'Trad'
     },
     {
       name: 'La Sportiva Maverink',
-      image: '/shoeSelection/mavernik.jpg',
+      image: '/shoeSelection/mavernik.avif',
       rubber: 'Vibram XS Grip2',
       aggression: 'Medium',
       bestUse: 'Bouldering, Sport'
     },
     {
       name: 'La Sportiva Miura Female',
-      image: '/shoeSelection/miuraF.jpg',
+      image: '/shoeSelection/miuraF.avif',
       rubber: 'Vibram XS Edge',
       aggression: 'High',
       bestUse: 'Sport, Bouldering'
     },
     {
       name: 'La Sportiva Miura Male',
-      image: '/shoeSelection/miuraM.jpg',
+      image: '/shoeSelection/miuraM.avif',
       rubber: 'Vibram XS Edge',
       aggression: 'High',
       bestUse: 'Sport, Bouldering'
     },
     {
       name: 'Five Ten Moccasym',
-      image: '/shoeSelection/moccasym.jpg',
+      image: '/shoeSelection/moccasym.avif',
       rubber: 'Stealth C4',
       aggression: 'Low',
       bestUse: 'Trad, Bouldering'
     },
     {
       name: 'Black Diamond Momentum Female',
-      image: '/shoeSelection/momentumF.jpg',
+      image: '/shoeSelection/momentumF.avif',
       rubber: 'NeoFriction',
       aggression: 'Low',
       bestUse: 'Gym, Sport'
@@ -296,7 +296,7 @@ export interface Shoe {
     },
     {
       name: 'La Sportiva Otaki',
-      image: '/shoeSelection/otaki.jpg',
+      image: '/shoeSelection/otaki.avif',
       rubber: 'Vibram XS Edge',
       aggression: 'High',
       bestUse: 'Sport, Bouldering'
@@ -310,28 +310,28 @@ export interface Shoe {
     },
     {
       name: 'La Sportiva Python',
-      image: '/shoeSelection/python.jpg',
+      image: '/shoeSelection/python.avif',
       rubber: 'Vibram XS Grip2',
       aggression: 'Medium',
       bestUse: 'Bouldering'
     },
     {
       name: 'Five Ten Rogue Female',
-      image: '/shoeSelection/rogueF.jpg',
+      image: '/shoeSelection/rogueF.avif',
       rubber: 'Stealth C4',
       aggression: 'Low',
       bestUse: 'Sport, Gym'
     },
     {
       name: 'Five Ten Rogue Male',
-      image: '/shoeSelection/rogueM.jpg',
+      image: '/shoeSelection/rogueM.avif',
       rubber: 'Stealth C4',
       aggression: 'Low',
       bestUse: 'Sport, Gym'
     },
     {
       name: 'Evolv Shakra',
-      image: '/shoeSelection/shakra.jpg',
+      image: '/shoeSelection/shakra.avif',
       rubber: 'TRAX',
       aggression: 'Medium',
       bestUse: 'Sport, Gym'
@@ -345,70 +345,70 @@ export interface Shoe {
     },
     {
       name: 'Evolv Shaman Male',
-      image: '/shoeSelection/shamanM.jpg',
+      image: '/shoeSelection/shamanM.avif',
       rubber: 'TRAX',
       aggression: 'High',
       bestUse: 'Sport, Bouldering'
     },
     {
       name: 'La Sportiva Solution Female',
-      image: '/shoeSelection/solutionF.jpg',
+      image: '/shoeSelection/solutionF.avif',
       rubber: 'Vibram XS Grip2',
       aggression: 'High',
       bestUse: 'Bouldering, Sport'
     },
     {
       name: 'La Sportiva Solution Male',
-      image: '/shoeSelection/solutionM.jpg',
+      image: '/shoeSelection/solutionM.avif',
       rubber: 'Vibram XS Grip2',
       aggression: 'High',
       bestUse: 'Bouldering, Sport'
     },
     {
       name: 'La Sportiva Tarantulace Female',
-      image: '/shoeSelection/tarantulaceF.jpg',
+      image: '/shoeSelection/tarantulaceF.avif',
       rubber: 'FriXion RS',
       aggression: 'Low',
       bestUse: 'Gym, Sport'
     },
     {
       name: 'La Sportiva Tarantulace Male',
-      image: '/shoeSelection/tarantulaceM.jpg',
+      image: '/shoeSelection/tarantulaceM.avif',
       rubber: 'FriXion RS',
       aggression: 'Low',
       bestUse: 'Gym, Sport'
     },
     {
       name: 'La Sportiva TC Pro',
-      image: '/shoeSelection/tcpro.jpg',
+      image: '/shoeSelection/tcpro.avif',
       rubber: 'Vibram XS Edge',
       aggression: 'Low',
       bestUse: 'Trad, Crack Climbing'
     },
     {
       name: 'La Sportiva Testarossa',
-      image: '/shoeSelection/testarossaM.jpg',
+      image: '/shoeSelection/testarossaM.avif',
       rubber: 'Vibram XS Grip2',
       aggression: 'High',
       bestUse: 'Sport, Bouldering'
     },
     {
       name: 'Scarpa Vapor Female',
-      image: '/shoeSelection/vaporF.jpg',
+      image: '/shoeSelection/vaporF.avif',
       rubber: 'Vibram XS Edge',
       aggression: 'Medium',
       bestUse: 'Sport Climbing'
     },
     {
       name: 'Scarpa Vapor Male',
-      image: '/shoeSelection/vaporM.jpg',
+      image: '/shoeSelection/vaporM.avif',
       rubber: 'Vibram XS Edge',
       aggression: 'Medium',
       bestUse: 'Sport Climbing'
     },
     {
       name: 'Evolv Zenist',
-      image: '/shoeSelection/zenist.jpg',
+      image: '/shoeSelection/zenist.avif',
       rubber: 'TRAX',
       aggression: 'High',
       bestUse: 'Bouldering, Gym'

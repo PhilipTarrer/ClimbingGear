@@ -11,7 +11,7 @@ export default function Shoes() {
             </Head>
             <main className="bg-white">
                 {/* Top of screen image */}
-                <div className="bg-cover bg-center w-full h-[400px] flex items-center justify-center" style={{ backgroundImage: "url('/shoes/ShoePage.jpeg')" }} >
+                <div className="bg-cover bg-center w-full h-[400px] flex items-center justify-center" style={{ backgroundImage: "url('/shoes/ShoePage.avif')" }} >
                     <div className="text-white text-5xl font-bold text-center "> The Anatomy of Rock Climbing Shoes</div>
                 </div>
 
@@ -22,7 +22,7 @@ export default function Shoes() {
                     <div className="w-full sm:w-1/4 lg:w-1/4">
                         <div className="bg-white px-8 min-h-[200px] flex flex-col items-center justify-center">
                             <h2 className="text-3xl font-bold text-center">Aggressive</h2>
-                            <img src="/shoes/AggressiveShoe.jpg" alt="Shoe 1" className="w-full h-auto object-cover" />
+                            <img src="/shoes/AggressiveShoe.avif" alt="Shoe 1" className="w-full h-auto object-cover" />
                             <p className="text-center">Aggressive shoes are built to excel on small footholds and overhung routes. The sharp downturn of the shoe
                                 acts as a hook, forcing more pressure into the very tip of the toe box allowing climbers to stand on smaller holds while maintaining the
                                 shape of the shoe. These types of shoes are generally considered to be for more advanced climbers and are very popular in the bouldering community.</p>
@@ -31,7 +31,7 @@ export default function Shoes() {
                     <div className="w-full sm:w-1/4 lg:w-1/4">
                         <div className="bg-white px-8 min-h-[200px] flex flex-col items-center justify-center">
                             <h2 className="text-3xl font-bold text-center">Moderate</h2>
-                            <img src="/shoes/OtherModerateShoe.jpg" alt="Shoe 2" className="w-full h-auto object-cover" />
+                            <img src="/shoes/OtherModerateShoe.avif" alt="Shoe 2" className="w-full h-auto object-cover" />
                             <p className="text-center">Moderate shoes are built to be comfortable on small holds and overhung routes. They are typically designed
                                 for climbers who want a mix between an aggressive shoe and a neutral shoe. Although they have a lesser downturn in the toe box, many
                                 moderate shoes can outperform aggressive shoes on climbs that require smearing or larger areas of contact.
@@ -67,25 +67,25 @@ export default function Shoes() {
                 <div className="flex flex-wrap justify-center gap-10 pt-12 pb-20">
                     <div className="w-full sm:w-1/4 lg:w-1/4">
                         <div className="bg-white px-20 min-h-[200px] flex flex-col items-center justify-center">
-                            <img src="/rubbers/grip2.png" alt="XS Grip 2" className="w-full h-auto object-cover" />
+                            <img src="/rubbers/grip2.avif" alt="XS Grip 2" className="w-full h-auto object-cover" />
                             <p className="text-center"> An improvement on Vibram's popular XS Grip rubber and one of the softest and stickiest rubbers on the market.</p>
                         </div>
                     </div>
                     <div className="w-full sm:w-1/4 lg:w-1/4">
                         <div className="bg-white px-20 min-h-[200px] flex flex-col items-center justify-center">
-                            <img src="/rubbers/edge.png" alt="XS Grip 2" className="w-full h-auto object-cover" />
+                            <img src="/rubbers/edge.avif" alt="XS Grip 2" className="w-full h-auto object-cover" />
                             <p className="text-center">Vibram's stiffer rubber designed for multipitch and slab routes providing excellent foot support. </p>
                         </div>
                     </div>
                     <div className="w-full sm:w-1/4 lg:w-1/4">
                         <div className="bg-white px-20 min-h-[200px] flex flex-col items-center justify-center">
-                            <img src="/rubbers/stealthc4.jpg" alt="Stealth C4" className="w-full h-auto object-cover" />
+                            <img src="/rubbers/stealthc4.avif" alt="Stealth C4" className="w-full h-auto object-cover" />
                             <p className="text-center">Originally designed by 5.10, Stealth C4 is widely acclaimed for its stickiness as one of the best rubbers. </p>
                         </div>
                     </div>
                     <div className="w-full sm:w-1/4 lg:w-1/4 pt-5">
                         <div className="bg-white px-20 min-h-[200px] flex flex-col items-center justify-center">
-                            <img src="/rubbers/stealthhf.jpg" alt="Stealth HF" className="w-full h-auto object-cover" />
+                            <img src="/rubbers/stealthhf.avif" alt="Stealth HF" className="w-full h-auto object-cover" />
                             <p className="text-center">5.10's Stealth HF is a high performance sticky rubber found on competitive indoor climbing shoes. </p>
                         </div>
                     </div>
@@ -97,7 +97,7 @@ export default function Shoes() {
                     </div>
                     <div className="w-full sm:w-1/4 lg:w-1/4 pt-5 ">
                         <div className="bg-white px-20 min-h-[200px] flex flex-col items-center justify-center">
-                            <img src="/rubbers/traxxe.jpg" alt="XS Grip 2" className="w-full h-auto object-cover" />
+                            <img src="/rubbers/traxxe.avif" alt="XS Grip 2" className="w-full h-auto object-cover" />
                             <p className="text-center">Although the Trax XE may be lacking in stickiness, this rubber makes up for it in durability and edging capability. </p>
                         </div>
                     </div>
@@ -133,7 +133,7 @@ export default function Shoes() {
                     <div className="w-full sm:w-1/4 lg:w-1/2">
                         <div className="bg-white px-20 min-h-[200px] flex flex-col items-center justify-center pt-10">
                             <h2 className="text-3xl font-bold text-center">Synthetic Upper</h2>
-                            <img src="/uppers/synthetic.jpg" alt="Synthetic" className="w-full h-auto object-cover" />
+                            <img src="/uppers/synthetic.avif" alt="Synthetic" className="w-full h-auto object-cover" />
                             <p className="text-center"> Synthetic uppers on climbing shoes provide a snug, consistent fit as they resist stretching, ensuring long-term precision.
                                 They're also lighter, more breathable, and dry faster than leather, making them ideal for varied climbing conditions. Additionally, synthetic materials
                                 are often eco-friendly, as many are made from recycled sources.</p>
@@ -143,7 +143,7 @@ export default function Shoes() {
                     <div className="w-full sm:w-1/4 lg:w-1/2">
                         <div className="bg-white px-20 min-h-[200px] flex flex-col items-center justify-center pt-10 pb-10">
                             <h2 className="text-3xl font-bold text-center">Leather Upper</h2>
-                            <img src="/uppers/leather.jpg" alt="Leather" className="w-full h-auto object-cover" />
+                            <img src="/uppers/leather.avif" alt="Leather" className="w-full h-auto object-cover" />
                             <p className="text-center">Leather uppers on climbing shoes offer excellent stretch and mold to the foot over time, providing a customized,
                                 comfortable fit. They are highly durable and breathable, making them ideal for long, multi-pitch routes or extended use. While they require more
                                 break-in time, leather shoes conform to foot shape better than synthetic options, delivering long-term comfort and performance. </p>

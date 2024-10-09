@@ -36,7 +36,7 @@ export default function ClimbingShoeQuiz() {
     const extractShoeNameAndImage = (response: string) => {
         const shoeNames = response.split('\n').map(name => name.trim()); // Assuming GPT-4 response contains shoe names separated by new lines
         const shoeName = shoeNames[0]; // Get the first recommended shoe for now
-        const imageUrl = '/shoeSelection' + shoeImageMap[shoeName] || '/shoeSelection/default.jpg'; // Default image if not found
+        const imageUrl = '/shoeSelection' + shoeImageMap[shoeName] || '/shoeSelection/default.avif'; // Default image if not found
         console.log(imageUrl);
         setShoeImage(imageUrl);
     };
@@ -68,7 +68,7 @@ export default function ClimbingShoeQuiz() {
                 <meta name="description" content="Take our AI-powered climbing shoe quiz and get personalized recommendations based on your climbing style, skill level, and foot shape. Find your perfect climbing shoe now!" />
             </Head>
             <div className="items-center justify-center h-screen">
-                <div className="bg-cover bg-center w-full h-full flex flex-col items-center justify-center" style={{ backgroundImage: "url('/backgrounds/quizPage.jpeg')" }}>
+                <div className="bg-cover bg-center w-full h-full flex flex-col items-center justify-center" style={{ backgroundImage: "url('/backgrounds/quizPage.avif')" }}>
                     <div className="text-white text-5xl font-bold text-center">Climbing Shoe Quiz</div>
                     <div className='text-white text-3xl font-bold text-center pt-5 pb-20'>Take our AI powered quiz and find the right shoe for you</div>
 
