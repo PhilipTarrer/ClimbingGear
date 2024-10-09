@@ -1,5 +1,6 @@
 import React from 'react';
 import NavbarButtons from './navbarButtons';
+import Image from 'next/image';
 
 const Navbar = () => {
   return (
@@ -7,8 +8,14 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo Section */}
         <div className="flex items-center">
-          <img src="/logo/logo.jpeg" alt="Logo" className="h-8 w-auto pb-1" />
-          {/* Optionally, if you want to keep the text next to the logo */}
+          {/* Using Next.js Image component for optimized loading */}
+          <Image 
+            src="/logo/logo.jpeg" 
+            alt="Logo" 
+            width={100} 
+            height={20} 
+            className="pb-1"
+          />
           <span className="text-black text-lg font-bold ml-2">
             PeakSummit
           </span>
