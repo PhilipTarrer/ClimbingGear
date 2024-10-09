@@ -9,7 +9,7 @@ export default function Page() {
                 <meta name="description" content="Find the best belay devices on our expert climbing gear guide. Explore top-rated equipment now." />
             </Head>
             <main className="bg-white">
-                <div className="bg-cover bg-center w-full h-[400px] flex items-center justify-center" style={{ backgroundImage: "url('/backgrounds/belaying.jpeg')" }} >
+                <div className="bg-cover bg-center w-full h-[400px] flex items-center justify-center" style={{ backgroundImage: "url('/backgrounds/belaying.avif')" }} >
                     <div className="text-white text-5xl font-bold text-center">Belay Devices</div>
                 </div>
 
@@ -20,7 +20,7 @@ export default function Page() {
                     <div className="w-full sm:w-1/2 lg:w-1/3">
                         <div className="bg-white p-6 border rounded-lg shadow-md">
                             <h3 className="text-black text-2xl font-semibold text-center mb-4">Figure 8</h3>
-                            <img src="/belaydevices/figure.jpg" alt="Figure 8" className="w-full h-[420px] object-cover py-5" />
+                            <img src="/belaydevices/figure.avif" alt="Figure 8" className="w-full h-[420px] object-cover py-5" />
                             <p className="text-center">The Figure 8 is a versatile and classic belay device, often favored by climbers who engage in rappelling.
                                 Its design allows for smooth, controlled descents, making it ideal for abseiling or lowering a climber. While it is easy to use, the Figure 8
                                 tends to be less effective for belaying with a modern dynamic rope system due to the lack of friction control compared to other devices.
@@ -57,7 +57,7 @@ export default function Page() {
                     <div className="w-full sm:w-1/2 lg:w-1/3">
                         <div className="bg-white p-6 border rounded-lg shadow-md">
                             <h3 className="text-black text-2xl font-semibold text-center mb-4">Active Braking</h3>
-                            <img src="/belaydevices/grigri.jpeg" alt="Active Braking" className="w-full h-[420px] object-cover py-5" />
+                            <img src="/belaydevices/grigri.avif" alt="Active Braking" className="w-full h-[420px] object-cover py-5" />
                             <p className="text-center">The Active Braking Device, such as the GriGri, is designed with a camming mechanism that assists in braking,
                                 automatically engaging when there is a sudden load, like in a fall. This type of device offers additional security and reduces the
                                 need for the belayer to grip the rope tightly at all times. Active braking devices are especially popular for sport climbing and

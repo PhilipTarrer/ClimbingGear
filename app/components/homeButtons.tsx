@@ -10,7 +10,7 @@ const HomeButtons = () => {
                 <div className="bg-gray-300 p-8 min-h-[400px] flex items-center justify-center group">
                     {/* Background Image */}
                     <div className="relative w-full min-h-[400px]">
-                        <div className="absolute inset-0 bg-cover bg-center transition-opacity duration-300 group-hover:opacity-20" style={{ backgroundImage: "url('/backgrounds/Shoe.jpg')" }}></div>
+                        <div className="absolute inset-0 bg-cover bg-center transition-opacity duration-300 group-hover:opacity-20" style={{ backgroundImage: "url('/backgrounds/Shoe.avif')" }}></div>
 
                         {/* Text Content */}
                         <div className="absolute inset-0 flex flex-col items-center justify-center">
@@ -44,7 +44,7 @@ const HomeButtons = () => {
                 <div className="bg-gray-300 p-8 min-h-[400px] flex items-center justify-center group">
                     {/* Background Image */}
                     <div className="relative w-full min-h-[400px]">
-                        <div className="absolute inset-0 bg-cover bg-center transition-opacity duration-300 group-hover:opacity-20" style={{ backgroundImage: "url('/backgrounds/belay.jpg')" }}></div>
+                        <div className="absolute inset-0 bg-cover bg-center transition-opacity duration-300 group-hover:opacity-20" style={{ backgroundImage: "url('/backgrounds/belay.avif')" }}></div>
 
                         {/* Text Content */}
                         <div className="absolute inset-0 flex flex-col items-center justify-center">
@@ -61,7 +61,7 @@ const HomeButtons = () => {
                 <div className="bg-gray-300 p-8 min-h-[400px] flex items-center justify-center group">
                     {/* Background Image */}
                     <div className="relative w-full min-h-[400px]">
-                        <div className="absolute inset-0 bg-cover bg-center transition-opacity duration-300 group-hover:opacity-20" style={{ backgroundImage: "url('/backgrounds/Quiz.jpeg')" }}></div>
+                        <div className="absolute inset-0 bg-cover bg-center transition-opacity duration-300 group-hover:opacity-20" style={{ backgroundImage: "url('/backgrounds/Quiz.avif')" }}></div>
 
                         {/* Text Content */}
                         <div className="absolute inset-0 flex flex-col items-center justify-center">
