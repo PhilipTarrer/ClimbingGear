@@ -5,6 +5,7 @@ const About = () => {
   return (
     <>
       <Head>
+        <link rel="canonical" href="https://www.peaksummit.org/about" />
         <title>About Us | PeakSummit - Your Guide to Climbing Gear</title>
         <meta name="description" content="Learn more about PeakSummit, our mission, and why we started. We help climbers find the perfect gear for their adventures with personalized recommendations." />
       </Head>

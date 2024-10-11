@@ -6,6 +6,7 @@ const ShoesPage: React.FC = () => {
   return (
     <>
       <Head>
+        <link rel="canonical" href="https://www.peaksummit.org/browseshoes" />
         <title>Browse Climbing Shoes | Find the Perfect Pair for Your Climbing Adventures</title>
         <meta name="description" content="Browse our wide range of climbing shoes and find the perfect pair for bouldering, sport climbing, or trad climbing. Compare top brands and styles to suit your needs." />
       </Head>

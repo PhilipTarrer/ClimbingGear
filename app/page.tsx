@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <>
       <Head>
+        <link rel="canonical" href="https://www.peaksummit.org/" />
         <title>Climbing Gear - Belay Devices, Shoes, Harnesses | PeakSummit</title>
         <meta name="description" content="Find the best belay devices, climbing shoes, and harnesses on our expert climbing gear guide. Explore top-rated equipment now." />
       </Head>

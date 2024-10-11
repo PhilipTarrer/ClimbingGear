@@ -5,6 +5,7 @@ export default function Harnesses() {
     return (
         <>
             <Head>
+                <link rel="canonical" href="https://www.peaksummit.org/harnesses" />
                 <title>Best Climbing Harnesses | Ultimate Guide to Finding the Perfect Fit</title>
                 <meta name="description" content="Discover the best climbing harnesses with our expert guide. Learn about comfort, safety features, and how to choose the right harness for your climbing style." />
             </Head>

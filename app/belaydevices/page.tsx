@@ -5,6 +5,7 @@ export default function Page() {
     return (
         <>
             <Head>
+                <link rel="canonical" href="https://www.peaksummit.org/belaydevices" />
                 <title>Belay Devices | Learn About Belay Devices</title>
                 <meta name="description" content="Find the best belay devices on our expert climbing gear guide. Explore top-rated equipment now." />
             </Head>

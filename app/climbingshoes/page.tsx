@@ -6,6 +6,7 @@ export default function Shoes() {
 
         <>
             <Head>
+                <link rel="canonical" href="https://www.peaksummit.org/climbingshoes" />
                 <title>Learn About Climbing Shoes | Find the Best Fit for Your Climbing Style</title>
                 <meta name="description" content="Learn about climbing shoes for bouldering, sport climbing, and trad climbing. Learn how to choose the right shoe for you and the different parts shoes." />
             </Head>
